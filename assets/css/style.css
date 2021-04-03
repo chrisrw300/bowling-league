@@ -1,0 +1,79 @@
+/* || Defaults */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: black;
+    --text: white;
+    --hover: #33A1FD;
+}
+
+/* || Navigation */
+header {
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    background: var(--primary);
+    font-family: 'Istok Web', sans-serif;
+}
+
+.nav-title {
+    float: left;
+    margin: 10px 25px;
+    font-size: 2.5vw;
+    transition: 0.3s;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.nav-links {
+    float: right;
+    margin: 25px 25px 0 0;
+    font-size: 1.25vw;
+    transition: 0.3s;
+}
+
+.nav-title:hover, .nav-links:hover {
+    color: var(--hover);
+}
+
+/* || Index */
+.index-hero {
+    background-image: url('../img/index-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.index-hero-title {
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    top: 15%;
+    left: 30%;
+    color: white;
+    text-align: center;
+    cursor: default;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.index-hero-title h2 {
+    font-size: 5vw;
+}
+
+.index-hero-title p {
+    font-size: 2vw;
+}

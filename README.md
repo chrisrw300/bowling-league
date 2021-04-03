@@ -15,7 +15,7 @@ Here is the client's story:
 
 I want a website for my bowling league to educate and recruit potential new members.
 When I get to the homepage, 
-I want to see our league name ("Team Alpha") and navigation, a hero image of our team, and information about us.
+I want to see our league name ("Team Alpha") and navigation, a hero image of our team, and our slogan.
 When I go to the Our Story page,
 I want to see images and stories of our past and current histories of victories
 When I go to the Our Team page,
